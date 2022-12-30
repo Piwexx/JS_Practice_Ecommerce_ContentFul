@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy House</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- navbar-->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <img src="./images/logo.svg" alt="store" srcset="">
+            <div class="cart-btn">
+                 <span class="nav-icon">
+                     <i class="fas fa-cart-plus"></i>
+                 </span>
+                <div class="cart-items">
+                        0
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--enf of  navbar-->
+    <!--hero -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Furniture collection</h1>
+            <button class="banner-btn">shop now</button>
+        </div>
+    </header>
+    <!--end of hero -->
+    <!--products -->
+    <section class="products">
+        <div class="section-title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-center">
+            
+        </div>
+    </section>
+    <!--end of products -->
+    <!--cart-->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your cart</h2>
+            <div class="cart-content">
+               
+            </div>
+            <!-- cart footer-->
+            <div class="cart-footer">
+                <h3> Your total : $ <span class="cart-total">500</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+            <!-- end cart footer-->
+        </div>
+    </div>
+    
+    <!--end of cart-->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="./appContentFul.js"></script>
+</body>
+</html>
